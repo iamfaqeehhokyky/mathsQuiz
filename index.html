@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Simple Math Quiz</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+    <!-- CSS file link -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <div class="start-container">
+      <h1>Simple Math Quiz</h1>
+      <h3>This project was built by a team of 5 Kibo Students</h3>
+      <p>Sulaimon Olanrewaju, Oluwadamilare Ezekiel, Daniel Aremu, Elijah Ogo, Deborah Simon</p>
+      <p id="result"></p>
+      <button id="start-button">Start Game</button>
+    </div>
+
+    <div id="display-container">
+      <div class="header">
+        <div class="number-of-count">
+          <span class="number-of-question">1 of 15 questions</span>
+        </div>
+        <div class="timer-div">
+          <img src="timer-icon.svg" />
+          <span class="time-left">10s</span>
+        </div>
+      </div>
+      <div id="container">
+        <!-- questions and options will be displayed here -->
+      </div>
+      <button id="next-button">Next</button>
+    </div>
+
+    <div class="score-container hide">
+      <div id="user-score">Demo Score</div>
+      <p>Thank you for taking up our Mathematics quiz!</p>
+      <button id="restart">Restart</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
